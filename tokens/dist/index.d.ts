@@ -25,6 +25,23 @@ declare const radii: {
     full: string;
 };
 
+declare const colors: {
+    white: string;
+    black: string;
+    gray100: string;
+    gray200: string;
+    gray400: string;
+    gray500: string;
+    gray600: string;
+    gray700: string;
+    gray800: string;
+    gray900: string;
+    exadria300: string;
+    exandria500: string;
+    exandria700: string;
+    exandria900: string;
+};
+
 declare const fonts: {
     default: string;
     code: string;
@@ -59,4 +76,4 @@ declare const lineHeights: {
     tall: string;
 };
 
-export { fontSizes, fontWeights, fonts, lineHeights, radii, space };
+export { colors, fontSizes, fontWeights, fonts, lineHeights, radii, space };
